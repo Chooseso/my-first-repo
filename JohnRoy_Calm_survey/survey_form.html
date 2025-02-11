@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Survey Form</title>
+    </head>
+    <body>
+        <form action="">
+            <h1>Survey Form</h1>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            
+            <fieldset>
+                <legend>How satisfied are you with our service?</legend>
+                <input type="radio" id="Vsatisfied" value="Very Satisfied">
+                <label for="Vsatisfied">Very Satisfied</label>
+                <br>
+                <input type="radio" id="Satisfied" value="Satisfied">
+                <label for="Satisfied">Satisfied</label>
+                <br>
+                <input type="radio" id="Neutral" value="Neutral">
+                <label for="Neutral">Neutral</label>
+                <br>
+                <input type="radio" id="Dissatisfied" value="Dissatisfied">
+                <label for="Dissatisfied">Dissatisfied</label>
+                <br>
+                <input type="radio" id="Dsatisfied" value="Very Dissatisfied">
+                <label for="Dsatisfied">Very Dissatisfied</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What features do you value most?</legend>
+                <input type="checkbox" id="EOU" value="Ease of Use">
+                <label for="EOU">Ease of Use</label>
+                <br>
+                <input type="checkbox" id="design" value="Design">
+                <label for="design">Design</label>
+                <br>
+                <input type="checkbox" id="CS" value="Customer Support">
+                <label for="CS">Customer Support</label>
+            </fieldset>
+            <br><br>
+            <label for="ROS">What best describes you?</label>
+            <select name="Role of Selection" id="ROS">
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Hobbyist">Hobbyist</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label for="feedback">Additional comments or suggestions?</label>
+            <br>
+            <textarea name="feedback" id="feedback"></textarea>
+            <br>
+            <input type="submit" id="submit" value="Submit">
+
+
+
+
+
+
+        </form>
+    </body>
+    </html>
