@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="/profile_image.jpg" alt="a placeholder of image for my portfolio">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laborum possimus molestias sunt, odio sint eligendi, voluptas corrupti deserunt unde ut delectus nobis laudantium a voluptate at facilis aperiam veritatis?</p>
+            <h3>My Projects</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bentodoro</td>
+                        <td>A mobile app that helps student to schedule acdemic task base on their own preferrence of timecompletion of a task </td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Tic Tac Toe</td>
+                        <td>A website that we can used to play and have fun</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Ccs Navigation System</td>
+                        <td>A java program system that helps students to see on-going classes and who are the mentors assigned to it.</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <form>
+                <h3>Contact Me</h3>
+                <input type="text" id="fname" name="fullname" placeholder="Full Name:">
+                <input type="email" id="emailadd" name="emailAddress" placeholder="Email Address:">
+                <div>
+                    <fieldset id="radiobutton">
+                        <legend>How did you hear about this portfolio</legend>
+                        <input type="radio" name="options" id="friend" value="Friend">
+                        <label for="friend">Friend</label>
+                        
+                        <input type="radio" name="options" id="SMedia" value="Social Media">
+                        <label for="SMedia">Social Media</label>
+                        
+                        <input type="radio" name="options" id="SEngine" value="Search Engine">
+                        <label for="SEngine">Search Engine</label>
+                        
+                        <input type="radio" name="options" id="Other" value="Other">
+                        <label for="Other">Other</label>
+                    </fieldset>
+                    <fieldset id="checkbox">
+                        <legend>Skill/Interest</legend>
+                        
+                        <label for="WDevelopment"><input type="checkbox" id="WDevelopment" value="Web Development">Web Development</label>
+                        <input type="checkbox" id="Design" value="Design">
+                        <label for="Design">Design</label>
+                        <input type="checkbox" id="Photography" value="Photography">
+                        <label for="Photography">Photography</label>
+                    </fieldset>
+                </div>
+                <label for="cm" id="coms">Comments or Messages:</label>
+                <textarea name="messages/comments" id="cm" placeholder="Enter Commnet/Messages"></textarea>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </section>
+    </main>
+    <div id="Hline"></div>
+    <footer>
+        <p>© John Roy O. Calm 2025</p>
+    </footer>
+
+</body>
+
+</html>
