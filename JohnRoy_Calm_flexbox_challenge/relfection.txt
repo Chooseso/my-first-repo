@@ -1,0 +1,6 @@
+Any difficulties you faced.
+    - During this exercise I felt confused in some ways, because of some syntax in flexbox.
+How you solved them.
+    - I solved them by going back to the previous lessons I finished, because of that I found the exact syntax to finish this exercise of flexbox
+How long the assignment took you to complete.
+    - Doing some research and trial and error approach I estimated that I finished this exercise about an hour. 

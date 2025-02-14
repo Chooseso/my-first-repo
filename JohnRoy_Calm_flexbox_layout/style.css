@@ -9,6 +9,7 @@ body {
   header {
     background-color: #ffcc00;
     height: 150px;
+    margin-top: 1em;
   }
 main{
     display: flex;
