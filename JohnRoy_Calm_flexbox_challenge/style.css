@@ -26,7 +26,7 @@ header {
     width: 300px;
     padding: 10px;
     border-radius: 10px;
-    
+
 }
 
 .right-panel {
@@ -35,7 +35,8 @@ header {
     gap: 20px;
 }
 
-.right-panel .top-bar, .main-content {
+.right-panel .top-bar,
+.main-content {
     display: flex;
     gap: 10px;
 }
@@ -47,7 +48,7 @@ header {
     border-radius: 10px;
 }
 
-footer{
+footer {
     background-color: rgb(253, 108, 12);
     text-align: center;
     padding: 15px;
