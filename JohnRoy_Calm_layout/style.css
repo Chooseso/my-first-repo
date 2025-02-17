@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 300px;
+}
+header{
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(126, 36, 230);
+}
+header nav{
+    display: flex;
+}
+header nav img{
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+}
+header nav input{
+    margin-left: 160px;
+    border: 1px solid rgb(112, 111, 114);
+    width: 275px;
+    padding: 10px;
+    margin-top: 5px;
+    height: 15px;
+    background-color: rgba(106, 73, 143, 0.966);
+    color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+header nav img{
+    margin-left: 90px;
+    margin-right: 10px;
+}
+main #content1{
+    height: auto;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 75px;
+}
+main #content1 #Bootsrap_Img{
+    width: 170px;
+}
+main #content1 h1{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+main #content1 p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(126, 127, 128);
+}
+main #content1 form input{
+    border-radius: 5px;
+}
+main #content1 form #npm{
+    height: 15px;
+    padding: 7px;
+    width: 200px;
+    margin-right: 5px;
+    border: 1px solid rgb(216, 210, 210);
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(216, 210, 210);
+}
+main #content1 form #r_docs{
+    width: 125px;
+    height:30px;
+    padding: 7px;
+    background-color: rgb(126, 36, 230);
+    color: rgb(216, 210, 210);
+}
+main #content1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 15px;
+}
+main #content1 ul p span{
+    color: rgb(216, 210, 210);
+    font-weight: bold;
+}
+main #content1 ul li a{
+    color: rgb(216, 210, 210);
+    font-size: 12px;
+}
+main #content2{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    gap: 15px;
+}
+main #content2 img{
+    width: 125px;
+    border-radius: 5px;
+}
+main #content2 h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+main #content2 p{
+    color: rgb(126, 127, 128);
+}
+main #content2 a{
+    color: rgb(124, 169, 253);
+}
