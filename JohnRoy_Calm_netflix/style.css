@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 248, 252);
+}
+body{
+    height: 1030px;
+    padding: 20px;
+    background: url(/netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg);
+    background-size: 1600px 550px;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 5, 5);
+}
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+header nav{
+    height: auto;
+    width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+header nav h1{
+    margin-right: 990px;
+    color: red;
+    font-size: 35px;
+}
+header nav select{
+    width: 120px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    background-color: rgba(46, 46, 46, 0.432);
+}
+header nav a{
+    text-decoration: none;
+    background-color: rgb(250, 58, 58);
+    width: 75;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+main .container1{
+    width: auto;
+    height: auto;
+    margin-bottom: 180px;
+    padding: 20px;
+}
+main .container1 h1{
+    font-size: 50px;
+}
+main .container1 .subscription{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+main .container1 form p, footer p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+main .container1 form .emailadd, footer form .emailadd{
+    width: 280px;
+    height: 25px;
+    background-color: rgba(46, 46, 46, 0.432);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+}
+main .container1 form .get_s, footer form .get_s{
+    width: 120px;
+    height: 39px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+main .container2{
+    height: auto;
+    width: 1300px;
+    margin: 10px;
+}
+main .container2 h4{
+    text-align: left;
+    font-size: 20px;
+}
+main .container2 ul{
+    margin: 10px 35px 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+}
+main .container2 ul li img{
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid rgba(68, 67, 67, 0.178);
+}
+main .container2 ul li button{
+    height: 80px;
+    width: 20px;
+    margin-left: -100px;
+    background-color: rgba(46, 46, 46, 0.24);
+    border-radius: 10px;
+}
+main .container3{
+    width: 1300px;
+    height: auto;
+    margin-top: 15px;
+}
+main .container3 .sub-title{
+    text-align: left;
+}
+main .container3 ul{
+    margin: 10px 35px 15px 35px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+main .container3 ul li{
+    background-color: rgba(17, 16, 88, 0.568);
+    text-align: left;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(68, 67, 67, 0.178);
+}
+main .container3 ul li h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+main .container3 ul li p{
+    font-size: 15px;
+}
+footer{
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
