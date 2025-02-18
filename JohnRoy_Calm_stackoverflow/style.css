@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+header{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-top: 3px solid #E56F0D;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #BABFC5;
+}
+header nav{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #636B74;
+}
+header nav ul li a img{
+    height: 75px;
+}
+header nav form input{
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #BABFC5;
+    padding-left: 10px;
+}
+header nav form a{
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+header nav form  .login{
+    color: #89B7E6;
+    border: 1px solid #1B75D0;
+}
+header nav form  .signup{
+    background-color: #1B75D0;
+    color: #CEE3F3;
+}
+aside{
+    width: 350px;
+    height: 1550px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    border-right: 1px solid #BABFC5;
+    border-top: 1px solid #BABFC5;
+}
+aside nav{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+aside nav ul{
+    list-style-type: none;
+    padding: 15px;
+}
+aside nav ul li{
+    padding: 7px;
+}
+aside nav ul li img{
+    margin-right: 7px;
+    height: 17px;
+}
+aside nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #656666;
+}
+main{
+    position: absolute;
+    top: 99px;
+    left: 358px;
+    width: 1225px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+main section{
+    width: 890px;
+    margin: 10px;
+    height: 500px;
+    border: 1px solid #d9dce0;
+    border-radius: 5px;
+}
+main .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container1 .div-content-container1{
+    width: 470px;
+    height: 300px;
+    padding: 15px;
+    position: relative;
+}
+main .container1 .div-content-container1 h1{
+    font-size: 35px;
+    color: #3B4045;
+}
+main .container1 .div-content-container1 h1, p, a{
+    margin-bottom: 25px;
+}
+main .container1 .div-content-container1 h1 span{
+    color: #FEFCF9;
+}
+main .container1 .div-content-container1 p{
+    color: #9A8F90;
+}
+main .container1 .div-content-container1 img{
+    height: 34px;
+    position: absolute;
+    top: 6px;
+    left: 105px;
+    z-index: -1;
+}
+main .container1 .div-content-container1 a{
+    padding: 10px;
+    text-decoration: none;
+}
+main .container1 .div-content-container1 .sign-up{
+    background-color: #1B75D0;
+    color: #CEE3F3;
+    border-radius: 5px;
+}
+main .container1 .div-content-container1 .v_community{
+    color: #6D9DDC;
+}
+main .container1 img{
+    height: 250px;
+    margin-top: 13px;
+}
+main .container2, .container3{
+    position: relative;
+    height: auto;
+    padding-top: 20px;
+}
+main .container2 h4{
+    color: #707377;
+    font-size: 20px;
+}
+main .container2 .div-content1-container2{
+    height: 200px;
+    width: 60%;
+    margin: 10px 0 10px 10px;
+}
+main .container2 .div-content1-container2 img, main .container2 .div-content3-container2 .div-card2-content2 img, main .container3 .div-content-container3 img{
+    height: 65px;
+}
+main .container2 .div-content1-container2 h4{
+    font-size: 8px;
+    position: absolute;
+    top: 95px;
+    left: 37px;
+    color: #F59140;
+}
+main .container2 .div-content1-container2 p{
+    color: #645F5B;
+}
+main .container2 .div-content1-container2 .explore-teams{
+    background-color: #1B75D0;
+    color: #CEE3F3;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+main .container2 .div-content1-container2 .try-free{
+    color: #6D9DDC;
+}
+
+main .container2 .for-team-img{
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+}
+main .container2 .div-content2-container2{
+    padding: 20px;
+    position: relative;
+    background-color: #3B4045;
+    border-radius: 5px;
+}
+main .container2 .div-content2-container2 img{
+    height: 45px;
+}
+main .container2 .div-content2-container2 .div-card-content2{
+    width: 55%;
+    height: 160px;
+}
+main .container2 .div-content2-container2 .div-card-content2 p{
+    color: #C3C8CB;
+}
+main .container2 .div-content2-container2 .div-card-content2 p span{
+    color: #F3F3F1;
+    font-weight: bold;
+}
+main .container2 .div-content2-container2 .div-card-content2 a{
+    background-color: #E7700D;
+    border-radius: 5px;
+    padding: 5px;
+    color: #C3C8CB;
+    text-decoration:  none;
+}
+main .container2 .div-content2-container2 .overflow-ai{
+    height: 160px;
+    position: absolute;
+    top: 39px;
+    right: 0;
+}
+main .container2 .div-content3-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+main .container2 .div-content3-container2 div{
+    width: 50%;
+    height: 250;
+    margin: 0 7px 0 7px;
+}
+main .container2 .div-content3-container2 .div-card2-content2{
+    position: relative;
+    padding-bottom: 15px;
+}
+main .container2 .div-content3-container2 .div-card2-content2 h4{
+    position: absolute;
+    top: 40px;
+    font-size: 11px;
+    left: 25px;
+    color: #F59140;
+}
+main .container2 .div-content3-container2 .div-card2-content2 p{
+    color: #645F5B;
+}
+main .container2 .div-content3-container2 .div-card2-content2 .add_solution{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1B75D0;
+    color: #CEE3F3;
+    margin-right: 5px;
+}
+main .container2 .div-content3-container2 .div-card3-content2{
+    position: relative;
+}
+main .container2 .div-content3-container2 .div-card3-content2 .overflow-h4{
+    position: absolute;
+    top: 13px;
+    left: 35px;
+    font-size: 17px;
+    color: #202122;
+}
+main .container2 .div-content3-container2 .div-card2-content2 .Byeb{
+    color: #6D9DDC;
+}
+main .container2 .div-content3-container2 .div-card3-content2 .SO_logo{
+    height: 40px;
+}
+main .container2 .div-content3-container2 .div-card3-content2 .setting_icon{
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+main .container2 .div-content3-container2 .div-card3-content2 .API-h4{
+    position: absolute;
+    top: 12px;
+    left: 133px;
+    font-size: 17px;
+    color: #F58A35;
+}
+main .container2 .div-content3-container2 .div-card3-content2 p{
+    color: #645F5B;
+}
+main .container2 .div-content3-container2 .div-card3-content2 a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1B75D0;
+    color: #CEE3F3;
+    margin-right: 5px;
+}
+main .container3 h4{
+    color: #707377;
+    font-size: 20px;
+}
+main .container3 .div-content-container3{
+    margin: 50px 0 50px 0;
+    width: 45%;
+    padding: 7px;
+}
+main .container3 .div-content-container3 p{
+    color: #645F5B;
+}
+main .container3 .div-content-container3 a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1B75D0;
+    color: #CEE3F3;
+}
+main .container3 .career_img{
+    height: 260px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
