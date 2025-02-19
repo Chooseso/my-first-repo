@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0D1117;
+}
+/* Header Design Area*/
+header{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: #25292E;
+}
+header nav{
+    width: 1500px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 15px 0;
+}
+header nav .header-nav-ul-container{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+}
+header nav .header-nav-ul-container ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+header nav .header-nav-ul-container ul li a{
+    color: #DFD6C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+header nav .header-nav-ul-container ul li a:hover{
+    background-color: #dfd6c967;
+    width: 100%;
+    border-radius: 5px;
+}
+header nav .header-nav-form-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+
+}
+header nav .header-nav-form-container form{
+    position: relative;
+}
+header nav .header-nav-form-container form .search_icon{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+header nav .header-nav-form-container form .slant_icon{
+    width: 20px;
+    position: absolute;
+    top: 4px;
+    left: 233px;
+}
+header nav .header-nav-form-container form input{
+    padding: 5px 5px 5px 20px;
+    width: 230px;
+    margin-right: 20px;
+    background-color: #25292E;
+    color: #DFD6C9;
+    border: 1px solid #636B75;
+    border-radius: 5px;
+}
+header nav .header-nav-form-container a{
+    width: 50px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 5px;
+    color: #DFD6C9;
+}
+header nav .header-nav-form-container .sign-up{
+    background-color: #25292E;
+    border: 1px solid #636B75;
+    border-radius: 5px;
+}
+
+
+
+/* Main Content Design Area */
+main{
+    align-self: flex-end;
+    width: 1150px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+main nav{
+    width: 500px;
+    height: 30px;
+    margin-left: 15%;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main nav .main-nav-ul-container{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+main nav .main-nav-ul-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+main nav .main-nav-ul-container ul a{
+    font-size: 16px;
+    color: #56585E;
+}
+main nav .main-nav-ul-container ul a:hover{
+    background-color: rgba(245, 244, 244, 0.849);
+    width: 100%;
+    border-radius: 2px;
+}
+main h2{
+    margin-left: 115px;
+    color: #7D8792;
+}
+main section{
+    border: 1px solid #333942;
+    width: 620px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+main .main-content1-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+}
+main .main-content1-container .game-img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+main .main-content1-container .github-icon{
+    width: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+main .main-content1-container h6{
+    position: absolute;
+    bottom: 155px;
+    font-size: 15px;
+    left: 52px;
+    color: #7D8792;
+}
+main .main-content1-container h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+main .main-content1-container h3 a{
+    color: #3D88EE;
+}
+main .main-content1-container p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #7D8792;
+    font-size: 17px;
+}
+main .main-content2-container{
+    height: auto;
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+main .main-content2-container .github-icon{
+    width: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+main .main-content2-container h6{
+    position: absolute;
+    top: 25px;
+    font-size: 15px;
+    left: 52px;
+    color: #7D8792;
+}
+main .main-content2-container .description-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 65px;
+    top: 75px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+main .main-content2-container .description-container h3{
+    color: #3D88EE;
+    margin-bottom: 10px;
+}
+main .main-content2-container .description-container p{
+    color: #7D8792;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+main .main-content2-container .description-container h5{
+    margin-bottom: 10px;
+}
+main .main-content2-container .description-container h5 a{
+    position: relative;
+    font-size: 15px;
+    color: #3D88EE;
+}
+main .main-content2-container .description-container h5 a span{
+    position: absolute;
+    left: 220px;
+    font-size: 18px;
+}
+main .main-content2-container .card{
+    height: 120px;
+    width: 120px;
+    background-color: #111D2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: #7D8792;
+    flex-wrap: wrap;
+}
+
+main aside{
+    width: 255px;
+    position: absolute;
+    right: 140px;
+    top: 125px;
+    height: auto;
+    border: 1px solid #3B424B;
+    border-radius: 5px;
+}
+main aside  ul .ul-li-header{
+    border: #232931 solid 1px;
+    height: auto;
+    padding: 10px;
+}
+main aside  ul .ul-li-header h4{
+    color: #D6D1CC;
+}
+main aside  ul .ul-li-header h4 img{
+    margin-right: 5px;
+}
+main aside  ul .developers{
+    border: #232931 solid 1px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+main aside  ul .developers .photo{
+    border-radius: 50%;
+    height: 55px;
+}
+main aside  ul .developers div h3 a{
+    color: #3D88EE;
+    margin-bottom: 5px;
+}
+main aside  ul .developers div p{
+    color: #7D8792;
+    margin-bottom: 7px;
+}
+main aside  ul .developers div .info-2{
+    font-size: 12px;
+}
+main aside  ul .developers div .info-2 img{
+    margin-right: 5px;
+}
+main aside  ul .ul-li-footer{
+    border: #232931 solid 1px;
+    padding: 10px;
+}
+main aside  ul .ul-li-footer a{
+    position: relative;
+    font-size: 12px;
+    color: #3D88EE;
+}
+main aside  ul .ul-li-footer a span{
+    position: absolute;
+    left: 160px;
+    font-size: 19px;
+}
+/* Footer Content Design Are */
+footer{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 10px 10px 100px;
+    font-size: 14px;
+    color: #7D8792;
+}
+footer ul{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+footer ul li a{
+    color: #7D8792;
+}
+footer ul li a:hover{
+    color:#3D88EE;
+}
+footer img, footer p, footer ul{
+    margin-bottom: 50px;
+}
+
