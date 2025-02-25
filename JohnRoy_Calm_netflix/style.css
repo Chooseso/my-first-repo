@@ -4,12 +4,15 @@
     color: rgb(243, 248, 252);
 }
 body{
-    height: 1030px;
-    padding: 20px;
     background: url(/netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg);
     background-size: 1600px 550px;
     background-repeat: no-repeat;
     background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 header{
     padding: 10px;
@@ -17,25 +20,28 @@ header{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    width: 98%;
 }
 header nav{
     height: auto;
-    width: 1300px;
+    width: 80%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     gap: 10px;
+
 }
 header nav h1{
-    margin-right: 990px;
+    margin-right: 73%;
     color: red;
     font-size: 35px;
 }
 header nav select{
-    width: 120px;
+    width: auto;
     padding: 5px;
     height: 30px;
+    height: auto;
     border: 1px solid rgb(180, 180, 180);
     border-radius: 5px;
     background-color: rgba(46, 46, 46, 0.432);
@@ -43,11 +49,9 @@ header nav select{
 header nav a{
     text-decoration: none;
     background-color: rgb(250, 58, 58);
-    width: 75;
-    height: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: auto;
+    height: auto;
+    text-align: center;
     border-radius: 5px;
     padding: 5px;
     font-size: 15px;
@@ -60,6 +64,7 @@ main{
     align-items: center;
     text-align: center;
     padding: 70px;
+    width: 91%;
 }
 main .container1{
     width: auto;
@@ -95,8 +100,8 @@ main .container1 form .get_s, footer form .get_s{
 }
 main .container2{
     height: auto;
-    width: 1300px;
-    margin: 10px;
+    width: 95%;
+    margin: 20px 10px 10px 10px;
 }
 main .container2 h4{
     text-align: left;
@@ -118,14 +123,14 @@ main .container2 ul li img{
 main .container2 ul li button{
     height: 80px;
     width: 20px;
-    margin-left: -100px;
     background-color: rgba(46, 46, 46, 0.24);
     border-radius: 10px;
 }
 main .container3{
-    width: 1300px;
+    width: 95%;
     height: auto;
     margin-top: 15px;
+    padding: 10px;
 }
 main .container3 .sub-title{
     text-align: left;
@@ -136,6 +141,7 @@ main .container3 ul{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    width: 95%;
 }
 main .container3 ul li{
     background-color: rgba(17, 16, 88, 0.568);
@@ -160,6 +166,389 @@ footer{
     align-items: center;
     text-align: center;
     margin-top: -50px;
+}
+
+@media (min-width: 481px) and (max-width: 1023px){
+    body{
+        background: url(/netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg);
+        background-size: 1100px 550px;
+        background-repeat: no-repeat;
+        background-color: rgb(5, 5, 5);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 98%;
+    }
+    header nav{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 3%;
+        gap: 10px;
+    
+    }
+    header nav h1{
+        margin-right: 63%;
+        color: red;
+        font-size: 35px;
+    }
+    header nav select{
+        width: auto;
+        padding: 5px;
+        height: 30px;
+        height: auto;
+        border: 1px solid rgb(180, 180, 180);
+        border-radius: 5px;
+        background-color: rgba(46, 46, 46, 0.432);
+        font-size: 20px;
+    }
+    header nav a{
+        text-decoration: none;
+        background-color: rgb(250, 58, 58);
+        width: auto;
+        height: auto;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    main{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 70px;
+        width: 91%;
+    }
+    main .container1{
+        width: auto;
+        height: auto;
+        margin-bottom: 180px;
+        padding: 20px;
+    }
+    main .container1 h1{
+        font-size: 50px;
+    }
+    main .container1 .subscription{
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    main .container1 form p, footer p{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    main .container1 form .emailadd, footer form .emailadd{
+        width: 280px;
+        height: 25px;
+        background-color: rgba(46, 46, 46, 0.432);
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(180, 180, 180);
+    }
+    main .container1 form .get_s, footer form .get_s{
+        width: 120px;
+        height: 39px;
+        padding: 5px;
+        background-color: red;
+        border-radius: 5px;
+    }
+    main .container2{
+        height: auto;
+        width: 95%;
+        margin: 20px 10px 10px 10px;
+    }
+    main .container2 h4{
+        text-align: left;
+        font-size: 20px;
+    }
+    main .container2 ul{
+        margin: 10px 35px 15px 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 5px;
+        width: 95%;
+    }
+    main .container2 ul li img{
+        width: 150px;
+        border-radius: 5px;
+        border: 1px solid rgba(68, 67, 67, 0.178);
+    }
+    main .container2 ul li button{
+        height: 80px;
+        width: 20px;
+        background-color: rgba(46, 46, 46, 0.24);
+        border-radius: 10px;
+    }
+    main .container3{
+        width: 95%;
+        height: auto;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    main .container3 .sub-title{
+        text-align: left;
+    }
+    main .container3 ul{
+        margin: 10px 35px 15px 35px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    main .container3 ul li{
+        background-color: rgba(17, 16, 88, 0.568);
+        text-align: left;
+        height: 150px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(68, 67, 67, 0.178);
+        width: 100%;
+    }
+    main .container3 ul li h4{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    main .container3 ul li p{
+        font-size: 15px;
+    }
+    footer{
+        height:150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        outline: 1px solid red;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    footer form input{
+        font-size: 20px;
+    }
+    footer form .emailadd{
+        height: auto;
+        width: 700px;
+        padding: 10px;
+    }
+    footer form .get_s{
+        height: auto;
+        width: 200px;
+        padding: 10px;
+    }
+}
+@media (max-width: 480px){
+    body{
+        background: url(/netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg);
+        background-size: 1100px 1100px;
+        background-repeat: no-repeat;
+        background-color: rgb(5, 5, 5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    header{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 900px;
+    }
+    header nav{
+        height: auto;
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 3%;
+        gap: 10px;
+    
+    }
+    header nav h1{
+        margin-right: 35%;
+        color: red;
+        font-size: 50px;
+    }
+    header nav select{
+        width: auto;
+        padding: 5px;
+        height: 30px;
+        height: auto;
+        border: 1px solid rgb(180, 180, 180);
+        border-radius: 5px;
+        background-color: rgba(46, 46, 46, 0.432);
+        font-size: 30px;
+    }
+    header nav a{
+        text-decoration: none;
+        background-color: rgb(250, 58, 58);
+        width: auto;
+        height: auto;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 30px;
+    }
+    main{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 70px;
+        width: 738px;
+    }
+    main .container1{
+        width: auto;
+        height: auto;
+        margin-bottom: 180px;
+        padding: 20px;
+    }
+    main .container1 h1{
+        font-size: 100px;
+    }
+    main .container1 .subscription{
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    main .container1 form p{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    main .container1 form .emailadd, footer form .emailadd{
+        width: 700px;
+        height: auto;
+        padding: 10px;
+        font-size: 30px;
+        background-color: rgba(46, 46, 46, 0.432);
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(180, 180, 180);
+        margin-bottom: 10px;
+    }
+    main .container1 form .get_s, footer form .get_s{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        font-size: 30px;
+        background-color: red;
+        border-radius: 5px;
+    }
+    main .container2{
+        height: auto;
+        width: 90%;
+        margin: 20px 10px 10px 10px;
+    }
+    main .container2 h4{
+        text-align: left;
+        font-size: 50px;
+    }
+    main .container2 ul{
+        margin: 10px 35px 15px 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 5px;
+        width: 95%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    main .container2 ul li img{
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid rgba(68, 67, 67, 0.178);
+    }
+    main .container2 ul li button{
+        height: 80px;
+        width: 20px;
+        background-color: rgba(46, 46, 46, 0.24);
+        border-radius: 10px;
+    }
+    main .container3{
+        width: 95%;
+        height: auto;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    main .container3 .sub-title{
+        text-align: left;
+        font-size: 40px;
+    }
+    main .container3 ul{
+        margin: 10px auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    main .container3 ul li{
+        background-color: rgba(17, 16, 88, 0.568);
+        text-align: left;
+        height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(68, 67, 67, 0.178);
+        width: 100%;
+    }
+    main .container3 ul li h4{
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    main .container3 ul li p{
+        font-size: 30px;
+    }
+    footer{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    footer form input{
+        font-size: 20px;
+    }
+    footer form .emailadd{
+        height: auto;
+        width: 700px;
+        padding: 10px;
+    }
+    footer form .get_s{
+        height: auto;
+        width: 200px;
+        padding: 10px;
+    }
 }
 
 
