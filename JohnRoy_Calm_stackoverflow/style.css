@@ -1,339 +1,1354 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    position: relative;
+    border-top: 5px solid #E7700D;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+
 }
 header{
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-top: 3px solid #E56F0D;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #BABFC5;
+    border-bottom: 1px solid #636b743a;
+    margin-bottom: 15px;
+    
 }
 header nav{
-    height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap:20px;
+    width: 85%;
+    justify-content: space-between;
+    gap: 10px;
 }
-header nav ul{
+header nav .list-info, header nav .list-Activity{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    gap: 20px;
+    list-style: none;
 }
-header nav ul li a{
+header nav .list-info li{
+    width: 97px;
+    text-align: center;
+    height: 35px;
+    padding: 10px;
+}
+header nav .list-info a{
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: #636B74;
 }
-header nav ul li a img{
-    height: 75px;
-}
-header nav form input{
-    width: 700px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #BABFC5;
-    padding-left: 10px;
-}
-header nav form a{
-    padding: 7px;
-    border-radius: 5px;
-    margin-left: 5px;
-    text-decoration: none;
-}
-header nav form  .login{
-    color: #89B7E6;
-    border: 1px solid #1B75D0;
-}
-header nav form  .signup{
-    background-color: #1B75D0;
-    color: #CEE3F3;
-}
-aside{
-    width: 350px;
-    height: 1550px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    position: relative;
-    border-right: 1px solid #BABFC5;
-    border-top: 1px solid #BABFC5;
-}
-aside nav{
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 25px;
-}
-aside nav ul{
-    list-style-type: none;
-    padding: 15px;
-}
-aside nav ul li{
-    padding: 7px;
-}
-aside nav ul li img{
-    margin-right: 7px;
-    height: 17px;
-}
-aside nav ul li a{
-    font-size: 16px;
-    text-decoration: none;
-    color: #656666;
-}
-main{
-    position: absolute;
-    top: 99px;
-    left: 358px;
-    width: 1225px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 40px;
-}
-main section{
-    width: 890px;
-    margin: 10px;
-    height: 500px;
-    border: 1px solid #d9dce0;
-    border-radius: 5px;
-}
-main .container1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main .container1 .div-content-container1{
-    width: 470px;
-    height: 300px;
-    padding: 15px;
-    position: relative;
-}
-main .container1 .div-content-container1 h1{
-    font-size: 35px;
-    color: #3B4045;
-}
-main .container1 .div-content-container1 h1, p, a{
-    margin-bottom: 25px;
-}
-main .container1 .div-content-container1 h1 span{
-    color: #FEFCF9;
-}
-main .container1 .div-content-container1 p{
-    color: #9A8F90;
-}
-main .container1 .div-content-container1 img{
-    height: 34px;
-    position: absolute;
-    top: 6px;
-    left: 105px;
-    z-index: -1;
-}
-main .container1 .div-content-container1 a{
-    padding: 10px;
-    text-decoration: none;
-}
-main .container1 .div-content-container1 .sign-up{
-    background-color: #1B75D0;
-    color: #CEE3F3;
-    border-radius: 5px;
-}
-main .container1 .div-content-container1 .v_community{
-    color: #6D9DDC;
-}
-main .container1 img{
-    height: 250px;
-    margin-top: 13px;
-}
-main .container2, .container3{
-    position: relative;
-    height: auto;
-    padding-top: 20px;
-}
-main .container2 h4{
-    color: #707377;
-    font-size: 20px;
-}
-main .container2 .div-content1-container2{
-    height: 200px;
-    width: 60%;
-    margin: 10px 0 10px 10px;
-}
-main .container2 .div-content1-container2 img, main .container2 .div-content3-container2 .div-card2-content2 img, main .container3 .div-content-container3 img{
-    height: 65px;
-}
-main .container2 .div-content1-container2 h4{
-    font-size: 8px;
-    position: absolute;
-    top: 95px;
-    left: 37px;
-    color: #F59140;
-}
-main .container2 .div-content1-container2 p{
-    color: #645F5B;
-}
-main .container2 .div-content1-container2 .explore-teams{
-    background-color: #1B75D0;
-    color: #CEE3F3;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
-    text-decoration: none;
-}
-main .container2 .div-content1-container2 .try-free{
-    color: #6D9DDC;
-}
-
-main .container2 .for-team-img{
-    height: 200px;
-    width: 330px;
-    position: absolute;
-    top: 26px;
-    right: 20px;
-}
-main .container2 .div-content2-container2{
-    padding: 20px;
-    position: relative;
-    background-color: #3B4045;
-    border-radius: 5px;
-}
-main .container2 .div-content2-container2 img{
-    height: 45px;
-}
-main .container2 .div-content2-container2 .div-card-content2{
-    width: 55%;
-    height: 160px;
-}
-main .container2 .div-content2-container2 .div-card-content2 p{
-    color: #C3C8CB;
-}
-main .container2 .div-content2-container2 .div-card-content2 p span{
-    color: #F3F3F1;
-    font-weight: bold;
-}
-main .container2 .div-content2-container2 .div-card-content2 a{
-    background-color: #E7700D;
-    border-radius: 5px;
-    padding: 5px;
-    color: #C3C8CB;
-    text-decoration:  none;
-}
-main .container2 .div-content2-container2 .overflow-ai{
-    height: 160px;
-    position: absolute;
-    top: 39px;
-    right: 0;
-}
-main .container2 .div-content3-container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-main .container2 .div-content3-container2 div{
-    width: 50%;
-    height: 250;
-    margin: 0 7px 0 7px;
-}
-main .container2 .div-content3-container2 .div-card2-content2{
-    position: relative;
-    padding-bottom: 15px;
-}
-main .container2 .div-content3-container2 .div-card2-content2 h4{
-    position: absolute;
-    top: 40px;
-    font-size: 11px;
-    left: 25px;
-    color: #F59140;
-}
-main .container2 .div-content3-container2 .div-card2-content2 p{
-    color: #645F5B;
-}
-main .container2 .div-content3-container2 .div-card2-content2 .add_solution{
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #1B75D0;
-    color: #CEE3F3;
-    margin-right: 5px;
-}
-main .container2 .div-content3-container2 .div-card3-content2{
-    position: relative;
-}
-main .container2 .div-content3-container2 .div-card3-content2 .overflow-h4{
-    position: absolute;
-    top: 13px;
-    left: 35px;
-    font-size: 17px;
-    color: #202122;
-}
-main .container2 .div-content3-container2 .div-card2-content2 .Byeb{
-    color: #6D9DDC;
-}
-main .container2 .div-content3-container2 .div-card3-content2 .SO_logo{
+header nav form{
+    width: 900px;
     height: 40px;
 }
-main .container2 .div-content3-container2 .div-card3-content2 .setting_icon{
-    height: 25px;
-    position: absolute;
-    top: 10px;
-    left: 100px;
+header nav form input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 10px;
 }
-main .container2 .div-content3-container2 .div-card3-content2 .API-h4{
-    position: absolute;
-    top: 12px;
-    left: 133px;
-    font-size: 17px;
-    color: #F58A35;
+header nav .list-Activity{
+    gap: 10px;
 }
-main .container2 .div-content3-container2 .div-card3-content2 p{
-    color: #645F5B;
-}
-main .container2 .div-content3-container2 .div-card3-content2 a{
-    text-decoration: none;
+header nav .list-Activity li{
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
     border-radius: 5px;
-    padding: 5px;
-    background-color: #1B75D0;
-    color: #CEE3F3;
+    background-color: #FFFFFF;
+    border: #2178D0 solid 1px;
+}
+header nav .list-Activity .login{
+    background-color: #FFFFFF;
+    border: #2178D0 solid 1px;
+}
+header nav .list-Activity .login a{
+    color: #2178D0;
+}
+header nav .list-Activity .signup{
+    background-color: #3c71a7;
+    border: #2178D0 solid 1px;
+}
+header nav .list-Activity .signup a{
+    color: #FFFFFF;
+}
+header nav .list-Activity li a{
+    width: 100%;
+    font-size: 15px;
+    height: 100%;
+    text-decoration: none;
+}
+header nav .logo{
+    height: 80px;
+}
+header nav a img{
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.main-container aside{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+
+}
+.main-container aside nav{
+    height: 300px;
+    width: 100%;
+    margin-left: 7.4rem;
+}
+.main-container aside nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+}
+.main-container aside nav ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #626669;
+    text-decoration: none;
+}
+.main-container aside nav ul li a img{
     margin-right: 5px;
 }
-main .container3 h4{
-    color: #707377;
-    font-size: 20px;
+.main-container aside nav ul .tags, .companies{
+    margin-bottom: 15px;
 }
-main .container3 .div-content-container3{
-    margin: 50px 0 50px 0;
-    width: 45%;
-    padding: 7px;
+.main-container aside nav ul .labs{
+    font-weight: bolder;
 }
-main .container3 .div-content-container3 p{
-    color: #645F5B;
+.main-container main{
+    width: 67.2%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
 }
-main .container3 .div-content-container3 a{
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 5px;
+.main-container main .container1{
+    border: 1px solid rgba(160, 156, 156, 0.37);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 10px 10px 10px;
+    gap: 10px;
+    height: auto;
+
+}
+.main-container main .container1
+.div-content-container1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main-container main .container1
+.div-content-container1 h1{
+    font-size: 40px;
+    color: #3B4045;
+}
+.main-container main .container1
+.div-content-container1 h1 span{
+    background-image: url(/Stack\ Overflow/background-image.png);
+    background-repeat: no-repeat;
+    background-size: 165px 40px;
+    color: white;
+}
+.main-container main .container1
+.div-content-container1 p{
+    color: #6d6c6d;
+}
+.main-container main .container1
+.div-content-container1 .sign-up{
     background-color: #1B75D0;
-    color: #CEE3F3;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    min-width: 15%;
+    color: white;
+}.main-container main .container1
+.div-content-container1 .v_community{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #49688f;
+    margin-left: 10px;
 }
-main .container3 .career_img{
-    height: 260px;
+.main-container main .container1 img{
+    max-height: 250px;
+}
+.main-container main .container2{
+    border: 1px solid rgba(160, 156, 156, 0.37);
+    padding-top: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+.main-container main .container2 h4{
+    width: 100%;
+    color: #6d6c6d;
+    font-size: 17px;
+}
+.main-container main .container2
+.div-content1-container2{
+    width: 55%;
+    height: auto;
+}
+.main-container main .container2
+.div-content1-container2 img{
+    max-height: 80px;
+    min-width: 20%;
+}
+.main-container main .container2
+.div-content1-container2 .for-teams{
     position: absolute;
-    top: 20px;
-    right: 0px;
+    font-size: 10px;
+    width: auto;
+    top: 14%;
+    left: 4%;
+    color: #F48A36;
 }
+.main-container main .container2
+.div-content1-container2 p{
+    margin-bottom: 20px;
+}
+.main-container main .container2
+.div-content1-container2 .explore-teams{
+    background-color: #1B75D0;
+    min-width: 15%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.main-container main .container2
+.div-content1-container2 .try-free{
+    color: #49688f;
+    margin-left: 10px;
+}
+.main-container main .container2
+.for-team-img{
+    height: 190px;
+    padding-top: 10px;
+    width: 42%;
+}
+.main-container main .container2
+.div-content2-container2{
+    background-color: #3B4045;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+.main-container main .container2
+.div-content2-container2 .div-card-content2 p{
+    color: white;
+}
+.main-container main .container2
+.div-content2-container2  .div-card-content2 p span{
+    font-weight: bold;
+}
+.main-container main .container2
+.div-content2-container2  .div-card-content2 a{
+    background-color: #E7700D;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;color: white;
+}
+.main-container main .container2
+.div-content2-container2 .overflow-ai{
+    height: 200px;
+    width: 100%;
+}
+.main-container main .container2
+.div-content2-container2 .div-card-content2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+.main-container main .container2
+.div-content2-container2 
+.div-card-content2 img{
+    height: 60px;
+}
+.main-container main .container2 
+.div-content3-container2{
+    display: flex;
+    gap: 10px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2 h4{
+    font-size: 11px;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    width: auto;
+    color: #F59040;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2 p{
+    margin-bottom: 20px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2 .add_solution{
+    background-color: #1B75D0;
+    padding: 15px 10px 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2 .Byeb{
+    padding: 10px;
+    color: #49688f;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card2-content2 img{
+    height: 80px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 img{
+    height: 45px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2{
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 10px;
+    gap: 15px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 .overflow-h4{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    width: auto;
+    color: black;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 .setting_icon{
+    position: absolute;
+    top: 14%;
+    left: 21%;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 .API-h4{
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    width: auto;
+    color: #F48024;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 p{
+    margin-bottom: 20px;
+}
+.main-container main .container2 
+.div-content3-container2 .div-card3-content2 a{
+    background-color: #1B75D0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main-container main .container3{
+    border: 1px solid rgba(160, 156, 156, 0.37);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    height: auto;
+    gap: 10px;
+}
+.main-container main .container3 h4{
+    width: 100%;
+    color: #6d6c6d;
+    font-size: 17px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.main-container main .container3 .div-content-container3{
+    margin-left: 10px;
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.main-container main .container3 .div-content-container3 img{
+    height: 80px;
+}
+.main-container main .container3 .div-content-container3 p{
+    margin-bottom: 20px;
+}
+.main-container main .container3 .div-content-container3 a{
+    background-color: #1B75D0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main-container main .container3 img{
+    height: 200px;
+    width: 50%;
+}
+
+@media(max-width: 1023px) and (min-width: 481px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        border-top: 5px solid #E7700D;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-content: center;
+    
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #636b743a;
+        margin-bottom: 15px;
+        width: 100%;
+        
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    header nav .list-info, header nav .list-Activity{
+        display: flex;
+        list-style: none;
+    }
+    header nav .list-info li{
+        min-width: 97px;
+        text-align: center;
+        height: 35px;
+        padding: 10px;
+    }
+    header nav .list-info a{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #636B74;
+    }
+    header nav form{
+        width: 900px;
+        height: 40px;
+    }
+    header nav form input{
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    header nav .list-Activity{
+        gap: 10px;
+    }
+    header nav .list-Activity li{
+        width: 70px;
+        text-align: center;
+        padding: 10px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .login{
+        background-color: #FFFFFF;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .login a{
+        color: #2178D0;
+    }
+    header nav .list-Activity .signup{
+        background-color: #3c71a7;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .signup a{
+        color: #FFFFFF;
+    }
+    header nav .list-Activity li a{
+        width: 100%;
+        font-size: 15px;
+        height: 100%;
+        text-decoration: none;
+    }
+    header nav .logo{
+        height: 80px;
+    }
+    header nav a img{
+        height: 100%;
+    }
+    header nav .list-info .about, .overflowai{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    
+    }
+    .main-container aside{
+        display: flex;
+    }
+    .main-container aside nav{
+        height: 300px;
+        width: 100%;
+        margin-right: 100%;
+    }
+    .main-container aside nav ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style-type: none;
+    }
+    .main-container aside nav ul li{
+        width: 100%;
+    }
+    .main-container aside nav ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #626669;
+        text-decoration: none;
+    }
+    .main-container aside nav ul li a img{
+        margin-right: 5px;
+    }
+    .main-container aside nav ul .tags, .companies{
+        margin-bottom: 15px;
+    }
+    .main-container aside nav ul .labs{
+        font-weight: bolder;
+    }
+    .main-container main{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+    .main-container main .container1{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px 10px 10px 10px;
+        gap: 10px;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .main-container main .container1
+    .div-content-container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .main-container main .container1
+    .div-content-container1 h1{
+        font-size: 40px;
+        color: #3B4045;
+    }
+    .main-container main .container1
+    .div-content-container1 h1 span{
+        background-image: url(/Stack\ Overflow/background-image.png);
+        background-repeat: no-repeat;
+        background-size: 165px 40px;
+        color: white;
+    }
+    .main-container main .container1
+    .div-content-container1 p{
+        color: #6d6c6d;
+        font-size: 25px;
+    }
+    .main-container main .container1
+    .div-content-container1 .sign-up{
+        background-color: #1B75D0;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        justify-content: center;
+        border-radius: 5px;
+        text-decoration: none;
+        min-width: 15%;
+        color: white;
+    }.main-container main .container1
+    .div-content-container1 .v_community{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #49688f;
+        margin-left: 10px;
+    }
+    .main-container main .container1 img{
+        height: 250px;
+        width: 100%;
+    }
+    .main-container main .container2{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        flex-direction: column;
+    }
+    .main-container main .container2 h4{
+        width: 100%;
+        color: #6d6c6d;
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-container main .container2
+    .div-content1-container2{
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .main-container main .container2
+    .div-content1-container2 img{
+        height: 80px;
+    }
+    .main-container main .container2
+    .div-content1-container2 .for-teams{
+        position: absolute;
+        font-size: 10px;
+        width: auto;
+        top: 8%;
+        left: 6%;
+        color: #F48A36;
+    }
+    .main-container main .container2
+    .div-content1-container2 p{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .main-container main .container2
+    .div-content1-container2 .explore-teams{
+        background-color: #1B75D0;
+        width: 15%;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    .main-container main .container2
+    .div-content1-container2 .try-free{
+        color: #49688f;
+        margin-left: 10px;
+    }
+    .main-container main .container2
+    .for-team-img{
+        height: 250px;
+        padding-top: 10px;
+        margin-top: 15px;
+        width:100%;
+        
+    }
+    .main-container main .container2
+    .div-content2-container2{
+        background-color: #3B4045;
+        width: 100%;
+        display: flex;
+        border-radius: 5px;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main-container main .container2
+    .div-content2-container2 .div-card-content2 p{
+        color: white;
+        font-size: 20px;
+    }
+    .main-container main .container2
+    .div-content2-container2  .div-card-content2 p span{
+        font-weight: bold;
+    }
+    .main-container main .container2
+    .div-content2-container2  .div-card-content2 a{
+        background-color: #E7700D;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;color: white;
+    }
+    .main-container main .container2
+    .div-content2-container2 .overflow-ai{
+        height: 200px;
+        width: 100%;
+    }
+    .main-container main .container2
+    .div-content2-container2 .div-card-content2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px;
+    }
+    .main-container main .container2
+    .div-content2-container2 
+    .div-card-content2 img{
+        height: 60px;
+    }
+    .main-container main .container2 
+    .div-content3-container2{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2{
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 h4{
+        font-size: 11px;
+        position: absolute;
+        top: 28%;
+        left: 5%;
+        width: auto;
+        color: #F59040;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 p{
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 .add_solution{
+        background-color: #1B75D0;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 .Byeb{
+        padding: 10px;
+        color: #49688f;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 img{
+        height: 80px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 img{
+        height: 45px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2{
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 10px 10px 10px;
+        gap: 15px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .overflow-h4{
+        position: absolute;
+        top: 18%;
+        left: 7%;
+        width: auto;
+        color: black;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .setting_icon{
+        position: absolute;
+        top: 12%;
+        left: 18%;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .API-h4{
+        position: absolute;
+        top: 17%;
+        left: 27%;
+        width: auto;
+        color: #F48024;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 p{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 a{
+        background-color: #1B75D0;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .main-container main .container3{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        height: auto;
+        gap: 10px;
+        display: none;
+    }
+    .main-container main .container3 h4{
+        width: 100%;
+        color: #6d6c6d;
+        font-size: 17px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .main-container main .container3 .div-content-container3{
+        margin-left: 10px;
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .main-container main .container3 .div-content-container3 img{
+        height: 80px;
+    }
+    .main-container main .container3 .div-content-container3 p{
+        margin-bottom: 20px;
+    }
+    .main-container main .container3 .div-content-container3 a{
+        background-color: #1B75D0;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .main-container main .container3 img{
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        border-top: 5px solid #E7700D;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-content: center;
+    
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #636b743a;
+        margin-bottom: 15px;
+        width: 100%;
+        
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    header nav .list-info, header nav .list-Activity{
+        display: flex;
+        list-style: none;
+    }
+    header nav .list-info li{
+        min-width: 97px;
+        text-align: center;
+        height: 35px;
+        padding: 10px;
+    }
+    header nav .list-info a{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #636B74;
+    }
+    header nav form{
+        width: 900px;
+        height: 40px;
+    }
+    header nav form input{
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    header nav .list-Activity{
+        gap: 10px;
+    }
+    header nav .list-Activity li{
+        width: 70px;
+        text-align: center;
+        padding: 10px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .login{
+        background-color: #FFFFFF;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .login a{
+        color: #2178D0;
+    }
+    header nav .list-Activity .signup{
+        background-color: #3c71a7;
+        border: #2178D0 solid 1px;
+    }
+    header nav .list-Activity .signup a{
+        color: #FFFFFF;
+    }
+    header nav .list-Activity li a{
+        width: 100%;
+        font-size: 15px;
+        height: 100%;
+        text-decoration: none;
+    }
+    header nav .logo{
+        height: 80px;
+    }
+    header nav a img{
+        height: 100%;
+    }
+    .main-container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+
+    }
+    .main-container aside{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid rgba(165, 163, 163, 0.37);
+    }
+    .main-container aside nav{
+        height: auto;
+        width: 25%;
+        margin-right: 17%;
+    }
+    .main-container aside nav ul{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style-type: none;
+    }
+    .main-container aside nav ul li{
+        width: 100%;
+    }
+    .main-container aside nav ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #626669;
+        text-decoration: none;
+    }
+    .main-container aside nav ul li a img{
+        margin-right: 5px;
+    }
+    .main-container aside nav ul .tags, .companies{
+        margin-bottom: 15px;
+    }
+    .main-container aside nav ul .labs{
+        font-weight: bolder;
+    }
+    .main-container main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+    .main-container main .container1{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px 10px 10px 10px;
+        gap: 10px;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .main-container main .container1
+    .div-content-container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .main-container main .container1
+    .div-content-container1 h1{
+        font-size: 25px;
+        color: #3B4045;
+    }
+    .main-container main .container1
+    .div-content-container1 h1 span{
+        background-image: url(/Stack\ Overflow/background-image.png);
+        background-repeat: no-repeat;
+        background-size: 165px 40px;
+        color: white;
+    }
+    .main-container main .container1
+    .div-content-container1 p{
+        color: #6d6c6d;
+        font-size: 15px;
+    }
+    .main-container main .container1
+    .div-content-container1 .sign-up{
+        background-color: #1B75D0;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        justify-content: center;
+        border-radius: 5px;
+        text-decoration: none;
+        min-width: 15%;
+        color: white;
+    }.main-container main .container1
+    .div-content-container1 .v_community{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #49688f;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .main-container main .container1 img{
+        height: 250px;
+        width: 100%;
+    }
+    .main-container main .container2{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        flex-direction: column;
+    }
+    .main-container main .container2 h4{
+        width: 100%;
+        color: #6d6c6d;
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-container main .container2
+    .div-content1-container2{
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .main-container main .container2
+    .div-content1-container2 img{
+        height: 80px;
+    }
+    .main-container main .container2
+    .div-content1-container2 .for-teams{
+        position: absolute;
+        font-size: 10px;
+        width: auto;
+        top: 7.6%;
+        left: 9%;
+        color: #F48A36;
+    }
+    .main-container main .container2
+    .div-content1-container2 p{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .main-container main .container2
+    .div-content1-container2 .explore-teams{
+        background-color: #1B75D0;
+        width: 15%;
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    .main-container main .container2
+    .div-content1-container2 .try-free{
+        color: #49688f;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .main-container main .container2
+    .for-team-img{
+        height: auto;
+        padding-top: 10px;
+        margin-top: 15px;
+        width:100%;
+        
+    }
+    .main-container main .container2
+    .div-content2-container2{
+        background-color: #3B4045;
+        width: 100%;
+        display: flex;
+        border-radius: 5px;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main-container main .container2
+    .div-content2-container2 .div-card-content2 p{
+        color: white;
+        font-size: 20px;
+    }
+    .main-container main .container2
+    .div-content2-container2  .div-card-content2 p span{
+        font-weight: bold;
+    }
+    .main-container main .container2
+    .div-content2-container2  .div-card-content2 a{
+        background-color: #E7700D;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;color: white;
+    }
+    .main-container main .container2
+    .div-content2-container2 .overflow-ai{
+        height: 200px;
+        width: 100%;
+    }
+    .main-container main .container2
+    .div-content2-container2 .div-card-content2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px;
+    }
+    .main-container main .container2
+    .div-content2-container2 
+    .div-card-content2 img{
+        height: 60px;
+    }
+    .main-container main .container2 
+    .div-content3-container2{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2{
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 h4{
+        font-size: 11px;
+        position: absolute;
+        top: 28%;
+        left: 5%;
+        width: auto;
+        color: #F59040;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 p{
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 .add_solution{
+        background-color: #1B75D0;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 .Byeb{
+        padding: 10px;
+        color: #49688f;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card2-content2 img{
+        height: 80px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 img{
+        height: 45px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2{
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 10px 10px 10px;
+        gap: 15px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .overflow-h4{
+        position: absolute;
+        top: 18%;
+        left: 7%;
+        width: auto;
+        color: black;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .setting_icon{
+        position: absolute;
+        top: 12%;
+        left: 17%;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 .API-h4{
+        position: absolute;
+        top: 17%;
+        left: 25%;
+        width: auto;
+        color: #F48024;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 p{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .main-container main .container2 
+    .div-content3-container2 .div-card3-content2 a{
+        background-color: #1B75D0;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .main-container main .container3{
+        border: 1px solid rgba(160, 156, 156, 0.37);
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        height: auto;
+        gap: 10px;
+        display: none;
+    }
+    .main-container main .container3 h4{
+        width: 100%;
+        color: #6d6c6d;
+        font-size: 17px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .main-container main .container3 .div-content-container3{
+        margin-left: 10px;
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .main-container main .container3 .div-content-container3 img{
+        height: 80px;
+    }
+    .main-container main .container3 .div-content-container3 p{
+        margin-bottom: 20px;
+    }
+    .main-container main .container3 .div-content-container3 a{
+        background-color: #1B75D0;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .main-container main .container3 img{
+        height: 200px;
+    }
+    
+}
+
